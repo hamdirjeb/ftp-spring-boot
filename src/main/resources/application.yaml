@@ -3,7 +3,7 @@ spring:
     name: ftp-spring-boot
 
 ftp:
-  host: localhost
-  port: 21
-  username: myuser
-  password: mypass
+  host: ${ftp_host}
+  port: ${ftp_port}
+  username: ${user_name}
+  password: ${password}

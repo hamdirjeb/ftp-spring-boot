@@ -1,15 +1,21 @@
+# Spring Boot + Ftp server APIs
 
-# FTP (File Transfer Protocol)
+This application implements a REST API for managing files and directories on an FTP server. The following features are supported:
 
-This repository is designed for the article available at [Establishing an FTP Server Using Docker and Accessing It via Spring Boot](https://medium.com/@gydamohaimeed/b9a87b389bb5). For detailed explanations and context, please refer to the article.
+📤 File Upload
+Allows uploading files to the FTP server via the API.
 
-### Before Running the Application
+📥 File Download
+Allows downloading files from the FTP server via the API.
 
-1. **Edit the Docker Compose File**: Open the `docker-compose.yml` file and locate the `volumes` section. Replace `/Users/gydaalmohaimeed/Documents/ftp` with the path to your desired directory on your host machine, ensuring you provide your own username in place of `gydaalmohaimeed`.
+📂 Directory Management
+Supports creating, renaming, and listing directories on the FTP server.
+---
 
-2. **Run the Container**: Navigate to the project directory in the terminal. Then, execute the following command to start the FTP server container:
+## 🧰 Tech Stack
 
-
-```bash
-docker-compose up
- ```
+- Java 11
+- REST API
+- Maven
+- Docker (optional)
+- FTP server

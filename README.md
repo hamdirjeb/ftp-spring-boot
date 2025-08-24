@@ -14,7 +14,7 @@ Supports creating, renaming, and listing directories on the FTP server.
 
 ## 🧰 Tech Stack
 
-- Java 11
+- Java 17
 - REST API
 - Maven
 - Docker (optional)
